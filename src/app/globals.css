@@ -1,16 +1,18 @@
 @import "tailwindcss";
 
 :root {
-  --background: #FAFBFC;
-  --foreground: #0F172A;
-  --primary: #1E3A5F;
-  --primary-light: #2D5A8E;
-  --accent: #F59E0B;
-  --accent-hover: #D97706;
-  --cta: #16A34A;
-  --cta-hover: #15803D;
+  --background: #FBF7F4;
+  --foreground: #1F1B2D;
+  --primary: #6B4C5A;
+  --primary-light: #8B6B7B;
+  --accent: #D4A574;
+  --accent-hover: #C49464;
+  --cta: #B76E79;
+  --cta-hover: #A45E69;
   --surface: #FFFFFF;
-  --muted: #64748B;
+  --muted: #7D7589;
+  --rose-soft: #F3E8E2;
+  --gold-soft: #F5EDE3;
 }
 
 @theme inline {
@@ -24,7 +26,10 @@
   --color-cta-hover: var(--cta-hover);
   --color-surface: var(--surface);
   --color-muted: var(--muted);
-  --font-sans: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  --color-rose-soft: var(--rose-soft);
+  --color-gold-soft: var(--gold-soft);
+  --font-sans: "Inter", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  --font-display: "Playfair Display", Georgia, "Times New Roman", serif;
 }
 
 body {
